@@ -145,10 +145,40 @@ section{
 
 .pajaros{
  
-    width: 100px;
-    height: 80px;
+    width: 70px;
+    height: 50px;
 
-}    
+}  
+.red {
+    position: absolute;
+    bottom: 29%;
+    left: 20%;
+}
+.chuck{
+    position: absolute;
+    bottom: 29%;
+    left: 9%;
+}
+.blue{
+    position: absolute;
+    bottom: 29%;
+    left: 0%;
+}
+.cerdo{
+    position: absolute;
+    bottom: 29%;
+    right: 20%;
+}
+.casco{
+    position: absolute;
+    bottom: 29%;
+    right: 9%;
+}
+.rey{
+    position: absolute;
+    bottom: 29%;
+    right: 0%;
+}
 
 
 
@@ -163,4 +193,41 @@ section{
     background-repeat: no-repeat;
     min-width: 750px;
     color: white;
+}
+
+.pvz{
+    
+    width: 80px;
+    height: 70px;
+
+}
+.girasol{
+    position: absolute;
+    bottom: 29%;
+    left: 0%;
+}
+.planta{
+    position: absolute;
+    bottom: 29%;
+    left: 9%;
+}
+.papa{
+    position: absolute;
+    bottom: 29%;
+    left: 20%;
+}
+.zombie-1{
+    position: absolute;
+    bottom: 29%;
+    right: 0%;
+}
+.zombie-2{
+    position: absolute;
+    bottom: 29%;
+    right: 9%;
+}
+.zombie-3{
+    position: absolute;
+    bottom: 29%;
+    right: 20%;
 }
