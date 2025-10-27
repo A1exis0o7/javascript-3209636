@@ -3,19 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 section{
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .fondo{
@@ -23,10 +16,11 @@ section{
     width: 750px;
     height: 500px;
     background-image: url(img/fondo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     min-width: 750px;
     color: white;
+    max-height: 500px;
 }
 .puntaje{
     top: 10px;
@@ -274,4 +268,52 @@ section{
 .sol{
     width: 80px;
     height: 80px;
+}
+
+
+
+
+
+.ecena{
+    width: 100%;
+    height: 100vh;
+}
+.anterior{
+    margin-left: -50px;
+}
+.siguiente{
+    margin-left: -50px;}
+.flecha {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
+.ecena2{
+    display: none;
+}
+.ecena3{
+    display: none;
+}
+
+.carrusel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    background-color: red;
+}
+.miniaturas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 20vh;
+    background-color: blue;
+}
+
+.prueba{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(174, 255, 0);
 }
