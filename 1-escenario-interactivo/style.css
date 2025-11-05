@@ -10,6 +10,7 @@
     background-image: url("img/Captura\ de\ pantalla\ 2025-10-16\ 142326.png");
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 .coins{
     display: flex;
@@ -104,22 +105,26 @@
 }
 
 .m2 {
-    left: 5%;
+    left: 50%;
+    bottom: 30%;
 }
 .m3 {
-    left:10%;
+    left:95%;
+    bottom: 20%;
 }
 .m4 {
-    left: 15%;
+    left: 25%;
+    bottom: 40%;
 }
 .m5 {
-    left: 20%;
+    left: 60%;
+    top: 20%;
 }
 .nube{
     position: absolute;
-    width: 150px;
-    top: 10%;
-    left: 50%;
+    width: 750px;
+    top: 1%;
+    
 }
 .pato{
     position: absolute;
@@ -129,6 +134,12 @@
 }
 .p2{
     left: 70%;
+}
+.comiendo{
+    position: absolute;
+    width: 100px;
+    bottom: 8%;
+    left: 38%;
 }
 
 /* animacion monedas */
@@ -146,27 +157,33 @@
     animation: salto 0.6s ease reverse;
 }
 
+.experiencia{
+    position: absolute;
+    width: 27px;
+    bottom: 16%;
+    left: 20%;
+}
 /* animacion nube */
 
 @keyframes moverNube {
-    0% {left: 20%;}
-    100% {left: 80%;}
+    0% {left: 0%;}
+    100% {left: 15%;}
 }
 .movernube{
-    animation: moverNube 10s linear infinite alternate;
+    animation: moverNube 27s linear infinite alternate;
 }
 
 .contenedor2{
     width: 750px;
     height: 500px;
-    background-image: url("img/fondo2.png");
+    background-image: url("img/fondo2mar.webp");
     background-size: cover;
     position: relative;
 }
 .personaje{
     position: absolute;
     width: 60px;
-    top: 58%;
+   bottom: 5%;
     left: 19%;
 }
 
@@ -217,16 +234,11 @@
 .moverma6{
     animation: moverma6 0.9s linear infinite alternate;
 }
-@keyframes movermanz{
-    100% {top: 72px;}
-}
-.movermanz{
-    animation: movermanz 0.9s linear infinite alternate;
-}
+
 .contenedor3{
     width: 750px;
     height: 500px;
-    background-image: url("img/fondo3.png");
+    background-image: url("img/espacio.webp");
     background-size: cover;
     position: relative;
 }
@@ -296,12 +308,12 @@
     background-size: cover;
 }
 .mf2{
-    background-image: url(img/fondo2.png
+    background-image: url(img/fondo2mar.webp
     );
     background-size: cover;
 }
 .mf3{
-    background-image: url(img/fondo3.png
+    background-image: url(img/espacio.webp
     );
     background-size: cover;
 }

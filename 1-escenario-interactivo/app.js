@@ -1,6 +1,14 @@
 const monedas = document.querySelectorAll('.moneda');
 console.log(monedas);//no puede dar null
 const patos = document.querySelectorAll('.pato')
+const comiendo = document.querySelectorAll('.comiendo')
+const comer = new Audio ("sonidos/ou.mp3")
+const bruja = document.querySelectorAll('.p2')
+const posion = new Audio ("sonidos/pocion.mp3")
+const zombi = document.querySelectorAll('.p1')
+const gruñir = new Audio ("sonidos/Minecraft-Zombie-Sound-Effect.mp3")
+
+
 let i = 0
 let j = 0
 
@@ -10,7 +18,18 @@ let contadorPatos = document.querySelector('.contadorpatos');
 console.log(contadorMonedas);
 
 //crear las funciones
-
+comiendo.forEach( item => {
+    item.addEventListener("click", () => {
+        comer.play()
+    })})
+    bruja.forEach( item => {
+    item.addEventListener("click", () => {
+        posion.play()
+    })})
+    zombi.forEach( item => {
+    item.addEventListener("click", () => {
+        gruñir.play()
+    })})
 monedas.forEach( item => {
     //hace lo que yo le diga aqui
     //console.log("elemento: ", item);
@@ -32,7 +51,7 @@ monedas.forEach( item => {
 patos.forEach( item => {
     item.addEventListener("click", () => {
         item.classList.add("bajar")
-        item.style.filter = "grayscale(1)"
+        item.style.filter = "sepia(100%) saturate(500%) hue-rotate(-50deg)"
         j++ 
         contadorPatos.textContent = j
     })
@@ -92,4 +111,7 @@ miniaturas.forEach((min,i) => {
     
 });
 
-//3.eventos
+//3.sonidos
+
+
+
