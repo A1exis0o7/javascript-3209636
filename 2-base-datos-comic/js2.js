@@ -10,21 +10,21 @@ let comic = {
    [
     {
       "ecena": "reino",
-      "id": 29,
+      "id": 1,
       "imagen": "./imagenes/sjdnvsj",
       "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
 
     {
       "name": "Molecule Man",
-      "id": 29,
+      "id": 2,
       "imagen": "./imagenes/sjdnvsj",
       "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
 
     {
       "name": "Molecule Man",
-      "id": 29,
+      "id": 3,
       "imagen": "./imagenes/sjdnvsj",
       "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]
     },
