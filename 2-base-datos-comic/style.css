@@ -5,9 +5,8 @@
 }
 header{
     width: 100%;
-    height: 100vh;
-    padding: 1rem 5%;
-    background-image: url(/img/fondo1.webp);
+    height: 120vh;
+    background-image: url(/img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,27 +16,33 @@ header{
 }
 
 nav{
+    background-color: rgba(0, 0, 0, 0.442);
     width: 100%;
     height: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+     color: white;
+     padding: 1.5rem 5%;
+     font-size: 10px;
+    
 
 }
 .menu{
     width: 70%;
     justify-content: space-between;
     display: flex;
-    color: white;
+   
 
 }
 .Apartado{
     align-items: center;
-    gap: 15px;
+    gap: 8px;
     display: flex;
 }
 .Apartado h1{
     font-size: 10px;
+    letter-spacing: 1px;
 }
 .Apartado img{
     width: 30px;
@@ -51,8 +56,34 @@ nav{
 }
 .usuario h1{
 font-size: 10px;
+letter-spacing: 2px;
 
 }
 .usuario img{
      width: 40px;
+}
+
+.Titulo {
+    max-height: 45% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo{
+    padding: 1rem 5%;
+    width: 100%;
+    height: 30vh;
+    color: white;
+}
+.Genero{
+    padding: 20px 0;
+}
+.peliculas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.peliculas img{
+    width: 18%;
 }
