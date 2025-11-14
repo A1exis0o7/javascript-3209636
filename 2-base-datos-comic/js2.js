@@ -1,5 +1,6 @@
 let comic = {
   "nombrecomic": "Cenizas de honor",
+  "descripcion": "descripcion",
   "sinopsis": "un caballero se",
   "year": 2025,
   "autores": ["Alexis"," miguel", "isabel", "luna",],
