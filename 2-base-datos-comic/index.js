@@ -1,6 +1,6 @@
-const Titulo = document.querySelectorAll('.Titulo');
+const Titulo = document.querySelector('.info-comic');
 
-const listaCapitulos = document.querySelectorAll('.catalogo');
+const listaCapitulos = document.querySelector('.');
 
 
 console.log(Titulo)
@@ -12,20 +12,22 @@ console.log(listaCapitulos)
 
 Titulo.innerHTML = `
          
+            <div class="Titulo">
              <h1 class="nombrecomic">${comic.nombrecomic}</h1>
-             <p>${comic.descripcion}</p>
+             <p class="descripcion">${comic.descripcion}  </p>
              
-             <div class="genero">${comic.genero.join(",<p>2025</p> <p>Ficcion</p>")}
-                <p>2025</p> <p>Ficcion</p>
-             </div>
-             <p class="sinopsis">${comic.sinopsis} </p>
-             <div class="creditos"> 
-                <p>Autores</p>
-                <p>Alexis</p>
-                <p>isabel</p>
-                <p>miguel</p>
-                <p>luna</p>s
-             </div>
+                <div class="datos">
+                <p class="year">${comic.year}</p> <p class="genero">${comic.genero}</p>
+                </div>
+             <p class="sinopsis">${comic.sinopsis}</p>
+                <div class="creditos"> 
+                <p class="autores">${comic.autores}</p>
+                <p class="autores">Alexis</p>
+                <p class="autores">isabel</p>
+                <p class="autores">miguel</p>
+                <p class="autores">luna</p>
+                </div>
+        </div> 
          
 
                 
