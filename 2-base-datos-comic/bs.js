@@ -1,6 +1,6 @@
 let comic = {
-  "nombrecomic": "Cenizas de honorr",
-  "descripcion": "La  expetiencia narrativa audiovisual   de aprendisaje medieval  con elementos interactivos transmedia",
+  "nombrecomic": "Cenizas de honor",
+  "descripcion": "La  experiencia narrativa audiovisual   de aprendisaje medieval  con elementos interactivos transmedia",
   "sinopsis": "Gracias al relog de arena, un caballero recorre siglos de historia, vive sus aventuras desde los in    icios de la edad media con la caida del imperio romano hasta su fin, con el descubrimiento de América, en un viaje interactivo donde tú decides su destino.",
   "year": 2025,
   "autores": ["Alexis"," miguel", "isabel", "luna",],
@@ -24,8 +24,13 @@ let comic = {
       "imagen": "./img/leon.jpg"
     },
   ],
+
+
+
   "escenas":
    [
+
+
     {
        "escena": 1,
       "nombre": "reino",
@@ -34,7 +39,7 @@ let comic = {
     },
 
     {
-      "nombre": "Molecule Man",
+      "nombre": "escuela",
       "escena": 2,
       "imagen": "./imagenes/sjdnvsj",
       "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]

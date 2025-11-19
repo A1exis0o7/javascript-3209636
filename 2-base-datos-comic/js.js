@@ -1,6 +1,6 @@
- const infoComic = document.querySelector('.info-comic');
+ const infoComic = document.querySelectorAll('.info-comic');
 
-const listaCapitulos = document.querySelector('.catalogo');
+const listaCapitulos = document.querySelector('.escenas');
 
 
 console.log(infoComic)

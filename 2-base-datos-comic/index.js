@@ -1,17 +1,23 @@
-const Titulo = document.querySelector('.info-comic');
+const infocomic = document.querySelector('.Titulo');
 
-const listaCapitulos = document.querySelector('.');
+const listaescenas = document.querySelector('.escenas');
 
 
-console.log(Titulo)
-console.log(listaCapitulos)
+console.log(infocomic);
+console.log(listaescenas);
 
 
 
 /* modificar el contenido de info general del comic */
 
-Titulo.innerHTML = `
-         
+infocomic.innerHTML = `
+
+
+
+            
+
+
+
             <div class="Titulo">
              <h1 class="nombrecomic">${comic.nombrecomic}</h1>
              <p class="descripcion">${comic.descripcion}  </p>
@@ -21,11 +27,7 @@ Titulo.innerHTML = `
                 </div>
              <p class="sinopsis">${comic.sinopsis}</p>
                 <div class="creditos"> 
-                <p class="autores">${comic.autores}</p>
-                <p class="autores">Alexis</p>
-                <p class="autores">isabel</p>
-                <p class="autores">miguel</p>
-                <p class="autores">luna</p>
+               ${comic.autores}
                 </div>
         </div> 
          
@@ -33,3 +35,6 @@ Titulo.innerHTML = `
                 
 
 `
+
+
+listaescenas.innerHTML = ``
