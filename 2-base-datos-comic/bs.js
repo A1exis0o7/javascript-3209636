@@ -34,15 +34,15 @@ let comic = {
     {
        "escena": 1,
       "nombre": "reino",
-     "imagen": "./img/disney.png",
-      "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+     "imagen": "./img/rey.jpg",
+      "personajes": ["leon", "rey", "reina"]
     },
 
     {
       "nombre": "escuela",
       "escena": 2,
-      "imagen": "./imagenes/sjdnvsj",
-      "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      "imagen": "./img/rey.jpg",
+      "personajes": ["sir leon", "maestro", "niños"]
     },
 
     {

@@ -37,4 +37,33 @@ infocomic.innerHTML = `
 `
 
 
-listaescenas.innerHTML = ``
+comic.escenas.forEach(escena => {
+
+const micard = document.createElement("div")
+micard.classList.add(".fondo")
+micard.innerHTML = `
+ <div class="escenas">
+            <h1 class="Genero">  </h1>
+            <div class="miniaturas">
+                <div class="escena escena1">
+                    <p></p>
+                </div>
+                <div class="escena escena2">
+                    <p></p>
+                </div>
+                <div class="escena escena3">
+                    <p></p>
+                </div>
+                <div class="escena escena4">
+                    <p></p>
+                </div>
+                <div class="escena escena5">
+                    <p></p>
+                </div>
+            </div>    
+        </div>
+`
+infoComic.appendChild(micard)
+console.log(escena.nombre)
+
+});

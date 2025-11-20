@@ -20,24 +20,28 @@ header{
 }
 
 nav{
-    background-color: rgba(0, 0, 0, 0.442);
+   
     width: 100%;
-    height: 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     color: white;
-     padding: 1.5rem 5%;
+    height: 6%;
+   display: flex;
+   justify-content: space-between;
+     margin: 1.5rem 0;
+    padding: 0 5%;
      font-size: 10px;
     
 
 }
 .menu{
-    width: 70%;
-    justify-content: space-between;
+    width: 60%;
     display: flex;
+    padding: 0 5%;
+    gap: 25px;
    
 
+}
+.navegar{
+    display: flex;
+    gap: 10px;
 }
 .Apartado{
     align-items: center;
@@ -55,6 +59,7 @@ nav{
 
 .usuario{
     display: flex;
+    justify-content: end;
     align-items: center;
     gap: 20px;
 }
@@ -75,7 +80,6 @@ letter-spacing: 2px;
 .Titulo {
     width: 100%;
     padding: 0 5%;
-    height: 45%;
     display: flex;
     flex-direction: column;
    
@@ -85,7 +89,7 @@ letter-spacing: 2px;
 }
 .nombrecomic{
     font-size: 55px;
-    padding: 20px 0;
+    padding: 40px 0 20px 0;
     
 }
 .Titulo p{
@@ -99,6 +103,7 @@ letter-spacing: 2px;
 .datos{
     padding-top: 10px;
 display: flex;
+gap: 30px;
 
 }
 .creditos{
@@ -113,52 +118,35 @@ display: flex;
 
 
 
-.catalogo{
+.escenas{
     padding: 1rem 5%;
     width: 100%;
     height: 30vh;
     color: white;
 }
 .Genero{
-    padding: 20px 0;
+    padding: 40px 5%;
+    text-align: start;
 }
-.peliculas{
+.miniaturas{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.peli{
-    width: 18%;
+.escena{
+    width: 180px;
     height: 140px;
     display: flex;
     align-items: end;
     justify-content: end;
     padding: 10px;
-}
-.ecena1{
-    background-image: url(img/header1\ 3.png);
     background-size: cover;
-    background-position: center;
 }
-.ecena2{
-    background-image: url(img/imagen.png);
-    background-size: cover;
-    background-position: center;
+
+.fondo-tarjeta{
+    background-image: url(img/rey.jpeg)
 }
-.ecena3{
-    background-image: url(img/imagen\ \(1\).png);
-    background-size: cover;
-    background-position: center;
-}
-.ecena4{
-    background-image: url(img/ecena4.png);
-    background-size: cover;
-    background-position: center;
-}
-.ecena5{
-    background-image: url(img/ecena5.png);
-    background-size: cover;
-    background-position: center;
-}
+
+
 
 
