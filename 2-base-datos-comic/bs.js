@@ -24,65 +24,144 @@ let comic = {
       "imagen": "./img/leon.jpg"
     },
   ],
-
-
-
-  "escenas":
-   [
-
-
+ "escenas": [
     {
-       "escena": 1,
-      "nombre": "reino",
-     "imagen": "./img/rey.jpg",
-      "personajes": ["leon", "rey", "reina"]
+      
+      "nombre": 1,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fono.png",
     },
 
     {
-      "nombre": "escuela",
-      "escena": 2,
-      "imagen": "./img/rey.jpg",
-      "personajes": ["sir leon", "maestro", "niños"]
+      "nombre": 2,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
     },
 
     {
-      "nombre": "Molecule Man",
-      "escena": 3,
-      "imagen": "./imagenes/sjdnvsj",
-      "personajes": ["Radiation resistance", "Turning tiny", "Radiation blast"]
+      
+      "nombre": 3,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fond.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+
+    {
+      "nombre": 29,
+      "personajes": ["sir leon","lady elvira"],
+      "image":"./imagenes/fondo.png",
+    },
+  ],
+
+   "person": [
+    {
+      "id": 1,
+      "name": "Madame Elvira",
+      "age": 26,
+      "powers": [
+        "estratega militar",
+      ]
     },
     
-
-
-
-
-
-
-
-
-
-
     {
-      "name": "Madame Uppercut",
-      "age": 39,
-      "secretIdentity": "Jane Wilson",
+      "name": "Sir leon de aquitania",
+      "image":"./imagenes/fondo.png",
+      "age": 1000000,
       "powers": [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
+        "Inmortalidad",
+        "Inmune a cualquier enfermedad",
       ]
     },
-    {
-      "name": "Eternal Flame",
-      "age": 1000000,
-      "secretIdentity": "Unknown",
+     {
+      "name": "Sirvienta",
+      "age": 20,
+      "identidad": "Olivia Marcelle",
       "powers": [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
+        "Sigilo",
       ]
-    }
+    },
   ]
 }
