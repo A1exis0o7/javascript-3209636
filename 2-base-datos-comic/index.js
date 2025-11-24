@@ -40,7 +40,7 @@ infocomic.innerHTML = `
 comic.escenas.forEach(escena => {
 
 const micard = document.createElement("div")
-micard.classList.add(".fondo")
+micard.classList.add(".")
 micard.innerHTML = `
  <div class="escenas">
             <h1 class="Genero">  </h1>
