@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "nombrecomic": "Cenizas de honor",
   "descripcion": "La  experiencia narrativa audiovisual   de aprendisaje medieval  con elementos interactivos transmedia",
   "sinopsis": "Gracias al relog de arena, un caballero recorre siglos de historia, vive sus aventuras desde los in    icios de la edad media con la caida del imperio romano hasta su fin, con el descubrimiento de América, en un viaje interactivo donde tú decides su destino.",
@@ -152,12 +152,13 @@ let comic = {
     },
   ],
 
-   "person": [
+    "person": [
     {
       "id": 1,
       "name": "Madame Elvira",
-      "image":"./img/leon.png",
+      "image":"./imagenes/esposa de sir leon.png",
       "age": 26,
+      "descripcion": "Madame Elvira, esposa de sir leon, una estratega militar experta en tácticas de guerra y liderazgo.",
       "powers": [
         "estratega militar",
       ]
@@ -166,8 +167,9 @@ let comic = {
     {
       "id": 2,
       "name": "Sir leon de aquitania",
-      "image":"./img/leon.png",
+      "image":"./imagenes/sir leon.png",
       "age": 1000000,
+      "descripcion": "Sir leon, principe de Aquitania y caballero inmortal con habilidades sobrehumanas.",
       "powers": [
         "Inmortalidad",
         "Inmune a cualquier enfermedad",
@@ -176,12 +178,13 @@ let comic = {
      {
       "id": 3,
       "name": "Sirvienta",
-      "image":"./img/leon.png",
+      "image":"./imagenes/sirvienta.png",
       "age": 20,
       "identidad": "Olivia Marcelle",
+      "descripcion": "Olivia Marcelle, una joven y hermosa sirvienta que trabaja en el castillo real.",
       "powers": [
         "Sigilo",
       ]
     },
-  
-  ]}
+  ]
+}
