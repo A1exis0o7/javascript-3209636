@@ -37,33 +37,36 @@ infocomic.innerHTML = `
 `
 
 
-comic.escenas.forEach(escena => {
+comic.escenas.forEach( escena => {
+    const miCard = document.createElement("div");
+    miCard.classList.add("tarjeta-cap");
+    miCard.innerHTML = `
 
-const micard = document.createElement("div")
-micard.classList.add(".")
-micard.innerHTML = `
- <div class="escenas">
-            <h1 class="Genero">  </h1>
-            <div class="miniaturas">
-                <div class="escena escena1">
-                    <p></p>
-                </div>
-                <div class="escena escena2">
-                    <p></p>
-                </div>
-                <div class="escena escena3">
-                    <p></p>
-                </div>
-                <div class="escena escena4">
-                    <p></p>
-                </div>
-                <div class="escena escena5">
-                    <p></p>
-                </div>
-            </div>    
-        </div>
-`
-infoComic.appendChild(micard)
-console.log(escena.nombre)
+        <a href="ecena,html?id=${escena.id}">
+        <img class="imagensize" src="${escena.image}" alt="">
+        <p>${escena.nombre}</p>
 
+        </a>    
+    `
+    infocomic.appendChild(miCard);
+    
 });
+
+
+
+
+comic.person.forEach( escena => {
+    const micard = document.createElement("div");
+    micard.classList.add("tarjeta-person");
+    micard.innerHTML =`
+    <a href="ecena,html?id=${person.id}">
+   
+
+    <img class="imagensize" src="${escena.image}" alt="">
+    <p>${escena.name}</p>
+    </a>
+
+    `
+    personajes.appendChild(micard);
+    console.log(escena.nombre)
+})
